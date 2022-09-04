@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="320dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:hint="Food Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#FF0063"
+        android:textColorHint="#FF0063"
+        app:hintTextColor="#FF0063"
+        android:textColor="#FF0063"
+        app:startIconDrawable="@drawable/ic_baseline_fastfood_24"
+        app:startIconTint="#FF0063">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField2"
+        android:layout_width="320dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:hint="Label"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#FF0063"
+        android:textColorHint="#FF0063"
+        app:hintTextColor="#FF0063"
+        android:textColor="#FF0063"
+        app:startIconDrawable="@drawable/ic_baseline_food_bank_24"
+        app:startIconTint="#FF0063">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt2"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField3"
+        android:layout_width="320dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#FF0063"
+        android:textColorHint="#FF0063"
+        app:hintTextColor="#FF0063"
+        android:textColor="#FF0063"
+        app:startIconDrawable="@drawable/ic_baseline_monetization_on_24"
+        app:startIconTint="#FF0063">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt3"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField4"
+        android:layout_width="320dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#FF0063"
+        android:textColorHint="#FF0063"
+        app:hintTextColor="#FF0063"
+        android:textColor="#FF0063"
+        app:startIconDrawable="@drawable/ic_baseline_home_work_24"
+        app:startIconTint="#FF0063">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt4"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField5"
+        android:layout_width="320dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:hint="Image"
+        android:tooltipText=" "
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#FF0063"
+        android:textColorHint="#FF0063"
+        app:hintTextColor="#FF0063"
+        android:textColor="#FF0063"
+        app:startIconDrawable="@drawable/ic_baseline_image_24"
+        app:startIconTint="#FF0063">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt5"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+
+        android:id="@+id/btn_done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/ic_round_done_24"
+        android:text="Done"
+        app:iconTint="#FF0063"
+        android:textColor="#FF0063"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_marginLeft="145dp" />
+
+
+
+</LinearLayout>
