@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity()  {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*foodlists = arrayListOf<Food>(
+        foodlists = arrayListOf<Food>(
 
             Food("Ghorme Sabzi","Norian","50000","Tehran" , 4,4f,"https://panamag.ir/wp-content/uploads/2021/08/ghorme-sabzi.jpg" ),
             Food("Mahi","Darya Food","62500","Mazandran" , 5,3.6f,"https://ashmazi.com/wp-content/uploads/2020/10/sabazi-polo-5.jpg" ),
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity()  {
             Food("Joje","Nayeb","75000","Tehran" , 2,4.5f,"https://img.tebyan.net/big/1396/08/112815013710238100112232904024924319915167.jpg?w=1200" ),
             Food("Koko","Mamany","25000","Shiraz" , 6,3f,"https://redmag.ir/wp-content/uploads/2022/07/red-mag-kookoo-sibzamini.jpg" ),
 
-        )*/
+        )
 
       val myAdopter = FoodAdopter(foodlists,this)
 
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity()  {
                 }
 
 
-              /*  myAdopter.Addfood(
+               myAdopter.Addfood(
                     Food(view.outlinedTextField.edt.text.toString(),
                         view.outlinedTextField2.edt2.text.toString(),
                         view.outlinedTextField3.edt3.text.toString(),
@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity()  {
                         0,
                         0f,
                         view.outlinedTextField5.edt5.text.toString(),
-                    ))*/
+                    ))
                 show.dismiss()
             }
         }

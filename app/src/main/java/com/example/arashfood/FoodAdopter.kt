@@ -51,8 +51,8 @@ class FoodAdopter( private val data:ArrayList<Food>, private val context:Context
 
     }
 
-    fun Addfood(namefood : Food){
-        data.add(0,namefood)
+    fun Addfood(nameFood : Food){
+        data.add(0,nameFood)
         notifyDataSetChanged()
 
     }
